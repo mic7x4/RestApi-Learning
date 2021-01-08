@@ -51,3 +51,9 @@ body {
   background: rgb(238, 66, 101);
   letter-spacing: 6px;
 }
+
+@media (max-width: 600px) {
+  .container form {
+    width: 70%;
+  }
+}
