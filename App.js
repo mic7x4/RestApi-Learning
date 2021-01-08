@@ -2,11 +2,14 @@
 const express = require('express');
 const morgan = require('morgan');
 const mysql = require('mysql');
-
-
 const app = express();
+
+
+app.use(express.static('./public'));
 app.use(morgan('short'))
 const PORT = 3000;
+
+// Creating connection for the database
 const connection = mysql.createConnection({
     host:'localhost',
     user:'root',

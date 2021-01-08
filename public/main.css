@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: rgb(236, 236, 236);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  flex-direction: column;
+}
+.container form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.container form label {
+  color: #111;
+  margin: 1rem 0;
+  font-size: 14px;
+}
+.container .user {
+  font-size: 24px;
+  font-weight: 700;
+  border-bottom: 1px solid #111;
+  padding-bottom: 1rem;
+}
+.container form input,
+.container form button {
+  border: none;
+  padding: 10px 12px;
+  outline: none;
+  border-radius: 40px;
+}
+.container form button {
+  margin: 1rem;
+  background: rgb(240, 41, 81);
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.container form button:hover {
+  background: rgb(238, 66, 101);
+  letter-spacing: 6px;
+}
