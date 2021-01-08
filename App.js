@@ -13,19 +13,7 @@ const router = require('./routes/user.js');
 
 
 app.use(router);
-const PORT = 3000;
-
-
-
-
-
-
-
-
-
-
-
-
+const PORT = process.env.PORT || 3000;
 
 
 
